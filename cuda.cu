@@ -12,7 +12,6 @@
 #include <set>
 #include <omp.h>
 
-// Includes for CUDA
 #include <cuda_runtime.h>
 #include <device_launch_parameters.h> // For blockIdx, threadIdx etc.
 
