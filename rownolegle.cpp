@@ -10,7 +10,7 @@
 #include <ctime> // Pozostawione dla std::time(nullptr) jako seed, ale OpenMP użyje omp_get_wtime()
 #include <map>
 #include <set>
-#include <omp.h> // Dodano OpenMP
+#include <omp.h>
 
 // Parametry algorytmu genetycznego
 const int POPULATION_SIZE = 1500;
